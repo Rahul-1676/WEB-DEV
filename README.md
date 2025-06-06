@@ -1,3 +1,4 @@
 # WEB-DEV
 Learning Web development
-From Classes given by ctr club
+
+From Classes provided by ctr club
