@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+    <!-- External CSS example -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+    <!-- Internal CSS example -->
+    <style>
+
+        body {
+            
+            background-color: rgb(129, 195, 233);
+            color: rgb(1, 0, 0);
+            justify-content: center;
+            align-items: center;
+        }
+
+        p {    /*here p element is a selected for styling
+            * is for universal styling
+            #tabble ID is for styling
+            .box is for class styling */
+           color:red;
+           text-align :center;
+        }
+
+        .box {
+            background-color: rgb(67, 169, 203);
+            padding: 10px;
+            border: 2px solid rgb(0, 0, 0);
+            margin: 20px ;
+            justify-content: center;
+            align-items: center;    
+        }
+
+        div {
+            display : inline-block;
+           
+        }
+        
+        h1 {  /*element less preference*/
+            color: green;
+            text-align: center;
+        }
+
+        tittle {  /*class more preference*/
+            color: blue;
+            text-align: center;
+        }
+
+        #tabble { /*ID more preference*/
+            border: 2px solid rgb(255, 0, 0);
+            padding: 10px;
+            margin: 20px;
+        }
+
+        .container { /*class more preference*/
+            display :flex;
+            color: rgb(227, 50, 227);
+            justify-content: center;
+            text-align: center;
+        }
+
+        
+
+    </style>
+
+</head>
+<body>
+    <h1> This is Third session code</h1>
+    <h3>I have coded on my own using session notes, because i didn't attended that session due to some unavoidable reasons.</h3>
+     <!-- /* inline most preference */
+         /* Inline CSS example */ -->
+    <p style="color:blue; text-align:center;">
+        I am learning web development.
+    </p>
+    
+    
+    <table id="tabble">
+        <tr>
+            <th> Name </th>
+            <th> Age </th>
+            <th> City </th>
+        </tr>
+        <tr>
+            <td> Rahul Kumar </td>
+            <td> 20 </td>
+            <td> Bhagalpur </td>
+        </tr>   
+
+    <p> I am learning web development </p> <!-- This is an element of external css example -->
+    
+    <p> I am learning web development </p> <!-- This is an element of internal css example -->
+
+    <div class="box">
+        <p> I am learning web development </p> <!-- This is an element of class css example -->
+        <p> I am learning web development </p> <!-- This is an element of inline css example -->
+    </div>
+
+    <div class="container">
+    <div class="box">A</div>
+    <div class="box">B</div>
+    </div>
+       
+     
+
+    
+</body>
+</html>
