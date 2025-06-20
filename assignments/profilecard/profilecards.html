@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Profile Card Section</title>
+  <style>
+  
+
+    .container {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin: 50px;
+      flex-wrap: wrap;
+    }
+
+    
+    .card {
+      background-color: rgb(161, 208, 150);
+     
+      display : flex;
+      flex-direction: column;
+      border : 1px solid rgb(0, 0, 0);
+      width: 250px;
+      padding: 20px;
+      text-align: center;
+      
+    }
+
+    .role {
+      font-size: 16px;
+      color: rgb(99, 18, 98);
+      margin: 5px 0;
+    }
+
+
+    .card img {
+    
+      margin: 0 auto;
+      object-fit: cover;
+      border-radius: 50%;
+    
+    }
+    
+    #name1, #name2, #name3 {
+      font-size: 20px;
+      color: rgb(0, 4, 118);
+      margin: 10px;
+    }
+
+     p {
+      font-size: 15px;;
+      color: black;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="card">
+      <img src="image1.jpg" width="200" height="200">
+      <h2 id="name1">Acharya prashant</h2>
+      <p class="role">Awakener</p>
+      <p>provide real and pure knowledge of geeta to everyone, and help us in realizing ourselves.</p>
+    </div>
+
+    <div class="card">
+      <img src="image2.jpg" width="200" height="200">
+      <h2 id="name2">Dr. Vikas divyakriti</h2>
+      <p class="role">Teacher</p>
+      <p>Teaches in a very professional and interacting way and gives corrent knowledge.</p>
+    </div>
+
+    <div class="card">
+      <img src="image3.jpg"   width="200" height="200">
+      <h2 id="name3">J. krishnamurti</h2>
+      <p class="role">Spritual figure</p>
+      <p>Teaches how to live every moment and a very high level of life with full of consciousness.</p>
+    </div>
+
+  </div>
+
+</body>
+</html>
