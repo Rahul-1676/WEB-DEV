@@ -28,6 +28,7 @@ first of all our mentors started with CSS that what is CSS?
 and at last this session get wrapped by topic flexbox.
 <br>
 <B> Task 3</B> <br>
+An interesting task given was to complete the levels of a flexbox type game ,where i exceled in using flexbox.<br>
 In form of assignment, a project has been given that is to Build a profile card section. Create 3 different user profile cards. Use Flexbox to arrange them horizontally. 
 <br>
 Each card must include:
